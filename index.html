@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Wilderson</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <!--
+                    <buttom class="switch" id="switch">
+                        <span><i class="fa fa-sun-o" aria-hidden="true"></i></span>
+                        <span><i class="fa fa-moon-o" aria-hidden="true"></i></span>
+                    </buttom>-->
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <img src="img/hero.png" alt="">
+                </div>
+                <h1>WILDERSON HERNANDEZ</h1>
+                <h2>Ingeniero en Informatica</h2>
+                <div class="redes">
+                    <a href="https://github.com/wildersonh"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/wilderson-hernandez-890238221/"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <div class="box">
+                <h2>Sobre Mí</h2>
+                <p><span>Hola, soy Wilderson Hernandez.</span> Soy una persona autodidacta que le gusta la programación, estoy estudiando ingeniería en informática por amor a la tecnología, soy muy independiente, congruente en mis acciones, me apasiona crear proyectos con mis amigos y dejar una marca.</p>
+
+                <div class="fila">
+                    <!-- datos personales -->
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                16-03-2004
+                            </li>
+                            <li>
+                                <strong>Teléfono</strong>
+                                0412-333-52-02
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                wildersonhernandez994@gmail.com
+                            </li>
+                            <li>
+                                <strong>Dirección</strong>
+                                Los teques, Venezuela
+                            </li>
+                            <li>
+                                <strong>Cargo</strong>
+                                <span>FREELANCE</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- intereses -->
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="interes">
+                                <i class="fa fa-gamepad" aria-hidden="true"></i>
+                                <span>JUEGOS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa fa-headphones" aria-hidden="true"></i>
+                                <span>MUSICA</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa fa-plane" aria-hidden="true"></i>
+                                <span>VIAJAR</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa fa-male" aria-hidden="true"></i>
+                                <span>DEPORTE</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa fa-book" aria-hidden="true"></i>
+                                <span>LIBROS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    Descargar CV <i class="fa fa-download" aria-hidden="true"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <div class="box">
+                <h2>Habilidades</h2>
+                <div class="fila">
+                    <!-- Technical Skill -->
+                    <div class="col">
+                        <h3>Habilidades Tecnicas</h3>
+                        <div class="skill">
+                            <span>Javascript</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>HTML & CSS</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>C++</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>65%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Java</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Professional Skills -->
+                    <div class="col">
+                        <h3>Habilidades Profecionales</h3>
+                        <div class="skill">
+                            <span>Comunicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Trabajo en Equipo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Creatividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>99%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Dedicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>65%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <div class="box">
+                <h2>Curriculum</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Educación</h3>
+                        <div class="item izq">
+                            <h4>Arte y Multimedia</h4>
+                            <span class="casa">Universidad de Oxford</span>
+                            <span class="fecha">2005 - 2008</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Arte y Multimedia</h4>
+                            <span class="casa">Universidad de Oxford</span>
+                            <span class="fecha">2005 - 2008</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Arte y Multimedia</h4>
+                            <span class="casa">Universidad de Oxford</span>
+                            <span class="fecha">2005 - 2008</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col derecha">
+                        <h3>Experiencia de trabajo</h3>
+                        <div class="item der">
+                            <h4>Front Developer</h4>
+                            <span class="casa">Nombre de Compañía</span>
+                            <span class="fecha">2005 - 2008</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Front Developer</h4>
+                            <span class="casa">Nombre de Compañía</span>
+                            <span class="fecha">2005 - 2008</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Front Developer</h4>
+                            <span class="casa">Nombre de Compañía</span>
+                            <span class="fecha">2005 - 2008</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <div class="box">
+                <h2>PORTFOLIO</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="img/p1.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografía</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p2.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografía</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p3.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografía</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p4.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografía</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p5.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografía</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p6.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografía</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
