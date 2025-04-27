@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Portfolio</title>
     <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
 </head>
 <body>
@@ -21,14 +22,7 @@
                     <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
                     <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
                     <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
-                    <!--
-                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <!--
-                    <buttom class="switch" id="switch">
-                        <span><i class="fa fa-sun-o" aria-hidden="true"></i></span>
-                        <span><i class="fa fa-moon-o" aria-hidden="true"></i></span>
-                    </buttom>-->
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -129,7 +123,7 @@
                 <div class="fila">
                     <!-- Technical Skill -->
                     <div class="col">
-                        <h3>Habilidades Tecnicas</h3>
+                        <h3>Habilidades Técnicas</h3>
                         <div class="skill">
                             <span>Javascript</span>
                             <div class="barra-skill">
@@ -204,130 +198,27 @@
         </div>
     </section>
 
-    <!-- SECCION CURRICULUM -->
-    <!--
-    <section id="curriculum" class="curriculum">
-        <div class="contenido-seccion">
-            <div class="box">
-                <h2>Curriculum</h2>
-                <div class="fila">
-                    <div class="col izquierda">
-                        <h3>Educación</h3>
-                        <div class="item izq">
-                            <h4>Arte y Multimedia</h4>
-                            <span class="casa">Universidad de Oxford</span>
-                            <span class="fecha">2005 - 2008</span>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                            <div class="conectori">
-                                <div class="circuloi"></div>
-                            </div>
-                        </div>
-                        <div class="item izq">
-                            <h4>Arte y Multimedia</h4>
-                            <span class="casa">Universidad de Oxford</span>
-                            <span class="fecha">2005 - 2008</span>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                            <div class="conectori">
-                                <div class="circuloi"></div>
-                            </div>
-                        </div>
-                        <div class="item izq">
-                            <h4>Arte y Multimedia</h4>
-                            <span class="casa">Universidad de Oxford</span>
-                            <span class="fecha">2005 - 2008</span>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                            <div class="conectori">
-                                <div class="circuloi"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col derecha">
-                        <h3>Experiencia de trabajo</h3>
-                        <div class="item der">
-                            <h4>Front Developer</h4>
-                            <span class="casa">Nombre de Compañía</span>
-                            <span class="fecha">2005 - 2008</span>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                            <div class="conectord">
-                                <div class="circulod"></div>
-                            </div>
-                        </div>
-                        <div class="item der">
-                            <h4>Front Developer</h4>
-                            <span class="casa">Nombre de Compañía</span>
-                            <span class="fecha">2005 - 2008</span>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                            <div class="conectord">
-                                <div class="circulod"></div>
-                            </div>
-                        </div>
-                        <div class="item der">
-                            <h4>Front Developer</h4>
-                            <span class="casa">Nombre de Compañía</span>
-                            <span class="fecha">2005 - 2008</span>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                            <div class="conectord">
-                                <div class="circulod"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </section>
 
     <!-- SECCION PORTFOLIO -->
-    <!--
+    
     <section id="portfolio" class="portfolio">
         <div class="contenido-seccion">
             <div class="box">
                 <h2>PORTFOLIO</h2>
-                <div class="galeria">
-                    <div class="proyecto">
-                        <img src="img/p1.jpg" alt="">
-                        <div class="overlay">
-                            <h3>Diseño Creativo</h3>
-                            <p>Fotografía</p>
-                        </div>
-                    </div>
-                    <div class="proyecto">
-                        <img src="img/p2.jpg" alt="">
-                        <div class="overlay">
-                            <h3>Diseño Creativo</h3>
-                            <p>Fotografía</p>
-                        </div>
-                    </div>
-                    <div class="proyecto">
-                        <img src="img/p3.jpg" alt="">
-                        <div class="overlay">
-                            <h3>Diseño Creativo</h3>
-                            <p>Fotografía</p>
-                        </div>
-                    </div>
-                    <div class="proyecto">
-                        <img src="img/p4.jpg" alt="">
-                        <div class="overlay">
-                            <h3>Diseño Creativo</h3>
-                            <p>Fotografía</p>
-                        </div>
-                    </div>
-                    <div class="proyecto">
-                        <img src="img/p5.jpg" alt="">
-                        <div class="overlay">
-                            <h3>Diseño Creativo</h3>
-                            <p>Fotografía</p>
-                        </div>
-                    </div>
-                    <div class="proyecto">
-                        <img src="img/p6.jpg" alt="">
-                        <div class="overlay">
-                            <h3>Diseño Creativo</h3>
-                            <p>Fotografía</p>
-                        </div>
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="galeria">
+                        <a  href="https://github.com/wildersonh/DuolingoDeTemuDjangoProject">
+                            <div class="proyecto">
+                                <img src="img/p1.png" alt="">
+                                <div class="overlay">
+                                    <h3>Django E-Learning</h3>
+                                    <p>pagina de idiomas</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
+                
             </div>
         </div>
     </section>
@@ -341,5 +232,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
